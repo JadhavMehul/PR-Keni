@@ -1,0 +1,51 @@
+.col-md-10{
+    background-color: white;
+}
+.bar {
+    background-color: #fbfbf8;
+    margin: 0%;
+}
+
+
+.header h1 {
+    font-family: "Karla";
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.links {
+    text-align: center;
+}
+
+.image_view img {
+    margin: 35px;
+    height: 89vh;
+    width: 60vw;
+}
+
+scroll_view{
+    overflow-x: hidden;
+    display: flex;
+}
+
+
+.about_page h1, .contact_page h1 {
+    padding: 25px;
+    text-align: center;
+}
+.about_page p {
+    padding: 0px 100px;
+    text-align: center;
+}
+.address h5 {
+    text-align: center;
+}
+
+.address address {
+    text-align: center;
+    font-style: italic;
+}
+
+a, a:hover {
+    color: black;
+}
