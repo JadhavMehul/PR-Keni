@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-md-10">
-            <scroll_view>
+            <div class="scrollmenu" id="scroll_menu">
                 <div class="image_view">
                     <img src="./media/images/1.jpg" alt="">
                 </div>
@@ -75,12 +75,12 @@
                 <div class="image_view">
                     <img src="./media/images/8.jpg" alt="">
                 </div>
-            </scroll_view>
+            </div>
         </div>
     </div>
 
     <script>
-        const scrollContainer = document.querySelector("scroll_view");
+        const scrollContainer = document.getElementById("scroll_menu");
 
         scrollContainer.addEventListener("wheel", (e) => {
             e.preventDefault();

@@ -1,3 +1,4 @@
+/* Universal styles */
 .col-md-10{
     background-color: white;
 }
@@ -6,6 +7,7 @@
     margin: 0%;
 }
 
+/* header all pages */
 
 .header h1 {
     font-family: "Karla";
@@ -17,26 +19,91 @@
     text-align: center;
 }
 
+/* homepage scrolling image view */
 .image_view img {
     margin: 35px;
     height: 89vh;
     width: 60vw;
 }
 
-scroll_view{
-    overflow-x: hidden;
-    display: flex;
+
+.scrollmenu::-webkit-scrollbar {
+    display: none;
 }
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+div.scrollmenu .image_view {
+    display: inline-block;
+    color: white;
+}
+  
 
+/* aboute page */
 
-.about_page h1, .contact_page h1 {
+.about_page h1 {
     padding: 25px;
     text-align: center;
+    font-family: "Karla";
 }
 .about_page p {
     padding: 0px 100px;
     text-align: center;
+    font-family: "Roboto";
 }
+
+.carousel_section {
+    margin: 0px 90px;
+    background-color: #c0d2cc;
+    border-radius: 8px;
+    padding: 48px 0 50px 0;
+}
+
+.name{
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 10%;
+    left: 16px;
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 90%;
+}
+.title {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    padding-left: 25px;
+    position: absolute;
+    bottom: 3%;
+    left: 16px;
+    background-color:rgba(255, 255, 255, 0.836);
+    width: 90%;
+}
+
+
+.carousel-control-next{
+    right: 43%;
+    top: 101%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+.carousel-control-prev{
+    left: 43%;
+    top: 101%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+.slide_prev, .slide_next{
+    height: 70px;
+}
+
+/* contact page */
 .address h5 {
     text-align: center;
 }
@@ -48,4 +115,8 @@ scroll_view{
 
 a, a:hover {
     color: black;
+}
+.contact_page {
+    padding: 25px;
+    height: 100vh;
 }
