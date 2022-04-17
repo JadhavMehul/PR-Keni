@@ -31,8 +31,29 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mobile_nav">
+        <a class="navbar-brand" href="#">PR Keni</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="row bar">
-        <div class="col-md-2">
+        <div class="col-md-2 horizontal_nav">
             <div class="header">
                 <h1>PR Keni</h1>
             </div>
@@ -65,13 +86,13 @@
                 <div class="col-md-6 pt-2">
                     <form onsubmit="Submit()">
                         <div class="form-group">
-                          <input type="text" placeholder="Full Name" class="form-control w-50" id="exampleName" aria-describedby="nameHelp" required>
+                          <input type="text" placeholder="Full Name" class="form-control input_fields" id="exampleName" aria-describedby="nameHelp" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Email" class="form-control w-50" id="examplewmail" aria-describedby="emailHelp" required>
+                            <input type="email" placeholder="Email" class="form-control input_fields" id="examplewmail" aria-describedby="emailHelp" required>
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="Enter Message" class="form-control w-50" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            <textarea placeholder="Enter Message" class="form-control input_fields" id="exampleFormControlTextarea1" rows="3" required></textarea>
                           </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                       </form>

@@ -9,6 +9,7 @@
 
 /* header all pages */
 
+
 .header h1 {
     font-family: "Karla";
     text-align: center;
@@ -119,4 +120,125 @@ a, a:hover {
 .contact_page {
     padding: 25px;
     height: 100vh;
+}
+.input_fields {
+    width: 50%;
+}
+
+/*----------------Small Size Devices----------------*/
+@media (min-device-width: 250px) and (max-device-width: 320px) {
+    .horizontal_nav, .about_carousel_desk {
+        display: none;
+    }
+    .image_view img {
+        margin: 10px;
+        height: 300px;
+        width: 270px;
+    }
+    #scroll_menu{
+        padding-top: 100px;
+    }
+    .about_page h1 {
+        padding: 5px;
+        text-align: center;
+        font-family: "Karla";
+    }
+    .about_page p {
+        padding: 0px 10px;
+        text-align: center;
+        font-family: "Roboto";
+    }
+    .carousel_section {
+        margin: 0px;
+    }
+    .input_fields {
+        width: 100%;
+    }
+}
+
+
+/*----------------Medium Size Devices----------------*/
+@media (min-device-width: 320px) and (max-device-width: 375px) {
+    .horizontal_nav, .about_carousel_desk {
+        display: none;
+    }
+    .image_view img {
+        margin: 10px;
+        height: 360px;
+        width: 325px;
+    }
+    #scroll_menu{
+        padding-top: 100px;
+    }
+    .about_page h1 {
+        padding: 5px;
+        text-align: center;
+        font-family: "Karla";
+    }
+    .about_page p {
+        padding: 0px 10px;
+        text-align: center;
+        font-family: "Roboto";
+    }
+    .carousel_section {
+        margin: 0px;
+    }
+    
+    .input_fields {
+        width: 100%;
+    }
+}
+
+
+/*----------------Large Size Devices----------------*/
+@media (min-device-width: 375px) and (max-device-width: 425px) {
+    .horizontal_nav, .about_carousel_desk {
+        display: none;
+    }
+    .image_view img {
+        margin: 10px;
+        height: 395px;
+        width: 375px;
+    }
+    #scroll_menu{
+        padding-top: 100px;
+    }
+    .about_page h1 {
+        padding: 5px;
+        text-align: center;
+        font-family: "Karla";
+    }
+    .about_page p {
+        padding: 0px 10px;
+        text-align: center;
+        font-family: "Roboto";
+    }
+    .carousel_section {
+        margin: 0px;
+    }
+        
+    .input_fields {
+        width: 100%;
+    }
+}
+
+
+/*----------------Tablet Size Devices----------------*/
+@media (min-device-width: 426px) and (max-device-width: 768px) {
+    .mobile_nav, .about_carousel_moba {
+        display: none;
+    }
+    .carousel_section {
+        margin: 0px;
+    }
+        
+    .input_fields {
+        width: 75%;
+    }
+}
+
+@media (min-device-width: 1024px) {
+    .mobile_nav, .about_carousel_moba {
+        display: none;
+    }
 }
