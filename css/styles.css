@@ -49,7 +49,7 @@ div.scrollmenu .image_view {
     text-align: center;
     font-family: "Karla";
 }
-.about_page p {
+.about_page > p {
     padding: 0px 100px;
     text-align: center;
     font-family: "Roboto";
@@ -57,9 +57,10 @@ div.scrollmenu .image_view {
 
 .carousel_section {
     margin: 0px 90px;
-    background-color: #c0d2cc;
+    background-color: white;
     border-radius: 8px;
-    padding: 48px 0 50px 0;
+    padding: 48px 30px 50px 20px;
+    border: 1px solid black;
 }
 
 .name{
@@ -126,7 +127,7 @@ a, a:hover {
 }
 
 /*----------------Small Size Devices----------------*/
-@media (min-device-width: 250px) and (max-device-width: 320px) {
+@media (min-device-width: 251px) and (max-device-width: 320px) {
     .horizontal_nav, .about_carousel_desk {
         display: none;
     }
@@ -154,11 +155,15 @@ a, a:hover {
     .input_fields {
         width: 100%;
     }
+    
+    .model_card {
+        width: 235px;
+    }
 }
 
 
 /*----------------Medium Size Devices----------------*/
-@media (min-device-width: 320px) and (max-device-width: 375px) {
+@media (min-device-width: 321px) and (max-device-width: 375px) {
     .horizontal_nav, .about_carousel_desk {
         display: none;
     }
@@ -187,11 +192,14 @@ a, a:hover {
     .input_fields {
         width: 100%;
     }
+    .model_card {
+        width: 235px;
+    }
 }
 
 
 /*----------------Large Size Devices----------------*/
-@media (min-device-width: 375px) and (max-device-width: 425px) {
+@media (min-device-width: 376px) and (max-device-width: 425px) {
     .horizontal_nav, .about_carousel_desk {
         display: none;
     }
@@ -220,6 +228,9 @@ a, a:hover {
     .input_fields {
         width: 100%;
     }
+    .model_card {
+        width: 290px;
+    }
 }
 
 
@@ -240,5 +251,9 @@ a, a:hover {
 @media (min-device-width: 1024px) {
     .mobile_nav, .about_carousel_moba {
         display: none;
+    }
+    .model_card {
+        width: 21rem; 
+        position: relative;
     }
 }
