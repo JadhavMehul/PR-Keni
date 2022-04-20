@@ -123,8 +123,57 @@ a, a:hover {
     height: 100vh;
 }
 .input_fields {
-    width: 50%;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0%;
+    box-shadow: none;
 }
+
+.input_fields:focus{
+    box-shadow: none;
+}
+
+
+.contact_card {
+    padding: 26px 30px;
+    -webkit-box-shadow: 0 10px 15px #4b4b4b;
+            box-shadow: 0 10px 15px #4b4b4b;
+    -webkit-transition: margin-top 0.5s;
+    transition: margin-top 0.5s;
+}
+
+.contact_card a {
+    text-decoration: none;
+}
+
+.contact_card .c_ico {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    opacity: 0.7;
+}
+
+.contact_card .c_ico2 {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    opacity: 0.7;
+}
+
+.contact_card .c_text {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.contact_card:hover {
+    margin-top: -15px;  
+}
+
+
 
 /*----------------Small Size Devices----------------*/
 @media (min-device-width: 251px) and (max-device-width: 320px) {
