@@ -64,12 +64,15 @@ div.scrollmenu .image_view {
 
 .home_text > h2 {
     text-shadow: none;
+    font-weight: bold;
+    text-shadow: none;
     letter-spacing: 1px;
     font-family: "Karla";
+    font-size: 38px;
 }
 
 .home_text > p {
-    font-size: 20px;
+    font-size: 22px;
     text-shadow: none;
     font-family: "Karla";
 }
@@ -239,6 +242,17 @@ a, a:hover {
     .model_card {
         width: 235px;
     }
+    .home_text > h4 {
+        font-size: 9px;
+    }
+    
+    .home_text > h2 {
+        font-size: 11px;
+    }
+    
+    .home_text > p {
+        font-size: 7px;
+    }
 }
 
 
@@ -274,6 +288,17 @@ a, a:hover {
     }
     .model_card {
         width: 235px;
+    }
+    .home_text > h4 {
+        font-size: 11px;
+    }
+    
+    .home_text > h2 {
+        font-size: 14px;
+    }
+    
+    .home_text > p {
+        font-size: 8px;
     }
 }
 
@@ -311,6 +336,17 @@ a, a:hover {
     .model_card {
         width: 290px;
     }
+    .home_text > h4 {
+        font-size: 13px;
+    }
+    
+    .home_text > h2 {
+        font-size: 16px;
+    }
+    
+    .home_text > p {
+        font-size: 9px;
+    }
 }
 
 
@@ -325,6 +361,17 @@ a, a:hover {
         
     .input_fields {
         width: 75%;
+    }
+    .home_text > h4 {
+        font-size: 16px;
+    }
+    
+    .home_text > h2 {
+        font-size: 19px;
+    }
+    
+    .home_text > p {
+        font-size: 12px;
     }
 }
 
